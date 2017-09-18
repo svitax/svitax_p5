@@ -1,3 +1,5 @@
+var circleX = 50;
+
 function setup() {
   createCanvas(600,400);
   //background
@@ -8,7 +10,7 @@ function draw() {
   //ellipse
   noStroke();
   fill(50,100,100);
-  ellipse(mouseX, mouseY, 25, 25);
+  ellipse(circleX, mouseY, 15, 10);
 
   //rectangle
   fill(200,250,200);

@@ -1,4 +1,12 @@
-var circleX = 0;
+var circle = {
+  x: 0,
+  y: 200,
+  diameter: 50
+};
+
+var r = 218;
+var g = 160;
+var b = 221;
 
 function setup() {
   createCanvas(600,400);
@@ -6,20 +14,9 @@ function setup() {
 
 function draw() {
   //background
-  background(250, 250, 100);
-  
-  //ellipse
-  noStroke();
-  fill(50,100,100);
-  ellipse(circleX, 200, 15, 10);
-
-  circleX = circleX + 1;
-
-  //rectangle
-  fill(200,250,200);
-  rect(400, 100, 50, 50);
-}
-
-function mousePressed() {
-  background(250, 250, 100);
+  background(r, g, b);
+  // ellipse
+  fill(250, 200, 200);
+  ellipse(circle.x, circle.y, circle.diameter, circle.diameter)
+  circle.x = circle.x + 1;
 }

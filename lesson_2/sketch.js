@@ -9,7 +9,7 @@ var g = 160;
 var b = 221;
 
 function setup() {
-  createCanvas(600,500);
+  createCanvas(600,400);
 }
 
 function draw() {

@@ -1,13 +1,13 @@
-var circle = {
+let circle = {
   x: 0,
   y: 200,
-  diameter: 50
+  diameter: 50,
 };
 
 
-var r = 218;
-var g = 160;
-var b = 221;
+let r = 218;
+let g = 160;
+let b = 221;
 
 
 function setup() {
